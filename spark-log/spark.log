@@ -1,0 +1,19 @@
+[WARN] 2019-04-09 13:13:02,876 org.apache.hadoop.util.NativeCodeLoader <clinit> - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[WARN] 2019-04-09 13:13:37,487 org.apache.hadoop.hive.metastore.ObjectStore checkSchema - Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 1.2.0
+[WARN] 2019-04-09 13:13:37,707 org.apache.hadoop.hive.metastore.ObjectStore getDatabase - Failed to get database default, returning NoSuchObjectException
+[WARN] 2019-04-09 13:13:38,538 org.apache.hadoop.hive.metastore.ObjectStore getDatabase - Failed to get database global_temp, returning NoSuchObjectException
+[WARN] 2019-04-09 14:08:00,016 org.apache.spark.HeartbeatReceiver logWarning - Removing executor driver with no recent heartbeats: 2686157 ms exceeds timeout 120000 ms
+[ERROR] 2019-04-09 14:08:00,121 org.apache.spark.scheduler.TaskSchedulerImpl logError - Lost executor driver on localhost: Executor heartbeat timed out after 2686157 ms
+[WARN] 2019-04-09 14:08:00,167 org.apache.spark.storage.BlockManagerMasterEndpoint logWarning - No more replicas available for rdd_4_0 !
+[WARN] 2019-04-09 14:08:00,168 org.apache.spark.storage.BlockManagerMasterEndpoint logWarning - No more replicas available for broadcast_69_piece0 !
+[WARN] 2019-04-09 14:08:00,168 org.apache.spark.storage.BlockManagerMasterEndpoint logWarning - No more replicas available for rdd_4_3 !
+[WARN] 2019-04-09 14:08:00,168 org.apache.spark.storage.BlockManagerMasterEndpoint logWarning - No more replicas available for rdd_4_1 !
+[WARN] 2019-04-09 14:08:00,169 org.apache.spark.SparkContext logWarning - Killing executors is not supported by current scheduler.
+[WARN] 2019-04-09 14:08:00,171 org.apache.spark.storage.BlockManagerMasterEndpoint logWarning - No more replicas available for broadcast_1_piece0 !
+[WARN] 2019-04-09 14:08:00,172 org.apache.spark.storage.BlockManagerMasterEndpoint logWarning - No more replicas available for rdd_4_2 !
+[WARN] 2019-04-09 14:08:00,172 org.apache.spark.storage.BlockManagerMasterEndpoint logWarning - No more replicas available for rdd_178_0 !
+[WARN] 2019-04-09 14:08:00,172 org.apache.spark.storage.BlockManagerMasterEndpoint logWarning - No more replicas available for rdd_178_1 !
+[WARN] 2019-04-09 14:08:00,173 org.apache.spark.storage.BlockManagerMasterEndpoint logWarning - No more replicas available for rdd_4_4 !
+[WARN] 2019-04-09 14:08:00,176 org.apache.spark.storage.BlockManagerMasterEndpoint logWarning - No more replicas available for rdd_178_3 !
+[WARN] 2019-04-09 14:08:00,177 org.apache.spark.storage.BlockManagerMasterEndpoint logWarning - No more replicas available for rdd_178_4 !
+[WARN] 2019-04-09 14:08:00,177 org.apache.spark.storage.BlockManagerMasterEndpoint logWarning - No more replicas available for rdd_178_2 !
